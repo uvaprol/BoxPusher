@@ -35,6 +35,7 @@ sources/1 = SubResource("TileSetAtlasSource_aqk2v")
 sources/2 = SubResource("TileSetAtlasSource_036b0")
 
 [node name="world" type="Node2D"]
+scale = Vector2(4, 4)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_dwbse")

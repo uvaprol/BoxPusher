@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cnfw5wr1xyrv2"
+path="res://.godot/imported/Dancing roach.mp3-5824e4d0a79484a558084f0794317337.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Dancing roach.mp3"
+dest_files=["res://.godot/imported/Dancing roach.mp3-5824e4d0a79484a558084f0794317337.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
