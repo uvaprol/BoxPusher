@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://brkyf3jj71dfx"]
-
-[ext_resource type="Texture2D" uid="uid://c6qsnw4iyvre3" path="res://icon.svg" id="1_xkb4e"]
-
-[node name="Box" type="Sprite2D"]
-rotation = 3.14159
-scale = Vector2(0.390625, 0.390625)
-texture = ExtResource("1_xkb4e")
