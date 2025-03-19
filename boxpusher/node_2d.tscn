@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://cix51bwr3v0j1"]
+
+[ext_resource type="Texture2D" uid="uid://b0jliapo4go4u" path="res://Sprites/Спрайт-0001.svg" id="1_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://b48dmpxxstktd" path="res://Sprites/Спрайт-0001-Sheet.svg" id="2_kdubu"]
+[ext_resource type="Texture2D" uid="uid://ww1fum2slbm7" path="res://Sprites/boxes-sheet.svg" id="3_d21ai"]
+[ext_resource type="Texture2D" uid="uid://k2ya6pw1y3is" path="res://Sprites/mashroom.svg" id="4_rj586"]
+[ext_resource type="Texture2D" uid="uid://cwekskibc2v55" path="res://Sprites/end.svg" id="5_4d7sh"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Спрайт-0001" type="Sprite2D" parent="."]
+position = Vector2(377, 427)
+texture = ExtResource("1_q6r6c")
+
+[node name="Спрайт-0001-sheet" type="Sprite2D" parent="."]
+position = Vector2(356.25, 441.25)
+scale = Vector2(0.180288, 0.468748)
+
+[node name="Спрайт-0002" type="Sprite2D" parent="."]
+position = Vector2(361, 427)
+texture = ExtResource("1_q6r6c")
+
+[node name="Спрайт-0001-sheet2" type="Sprite2D" parent="."]
+position = Vector2(364, 456)
+texture = ExtResource("2_kdubu")
+
+[node name="Boxes-sheet" type="Sprite2D" parent="."]
+position = Vector2(314, 428)
+texture = ExtResource("3_d21ai")
+
+[node name="Mashroom" type="Sprite2D" parent="."]
+position = Vector2(362, 480)
+texture = ExtResource("4_rj586")
+
+[node name="End" type="Sprite2D" parent="."]
+position = Vector2(409, 503)
+texture = ExtResource("5_4d7sh")
+
+[node name="End2" type="Sprite2D" parent="."]
+position = Vector2(409, 503)
+texture = ExtResource("5_4d7sh")
