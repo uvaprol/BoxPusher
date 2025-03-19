@@ -1,17 +1,26 @@
-[gd_scene load_steps=4 format=3 uid="uid://1oqyjnm5h3q0"]
+[gd_scene load_steps=5 format=3 uid="uid://1oqyjnm5h3q0"]
 
 [ext_resource type="PackedScene" uid="uid://c5f6lhpk0ddns" path="res://Scenes/wall.tscn" id="1_m2trk"]
 [ext_resource type="PackedScene" uid="uid://boc01aqxhilir" path="res://Scenes/player.tscn" id="2_oqr2c"]
 [ext_resource type="PackedScene" uid="uid://dxg2jymwybwbk" path="res://Scenes/Finish.tscn" id="3_6fe5t"]
+[ext_resource type="PackedScene" uid="uid://livo6vxe3jml" path="res://Scenes/box.tscn" id="3_oqr2c"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Area2D" parent="." instance=ExtResource("1_m2trk")]
-position = Vector2(573, 58)
+position = Vector2(-1, 55)
+scale = Vector2(9.84, 1)
+
+[node name="Area2D9" parent="." instance=ExtResource("1_m2trk")]
+position = Vector2(478, 58)
 scale = Vector2(9.84, 1)
 
 [node name="Area2D2" parent="." instance=ExtResource("1_m2trk")]
-position = Vector2(576, 582)
+position = Vector2(-1, 652)
+scale = Vector2(9.84, 1)
+
+[node name="Area2D8" parent="." instance=ExtResource("1_m2trk")]
+position = Vector2(491, 653)
 scale = Vector2(9.84, 1)
 
 [node name="Area2D3" parent="." instance=ExtResource("1_m2trk")]
@@ -20,12 +29,17 @@ rotation = 1.5708
 scale = Vector2(9.84, 1)
 
 [node name="Area2D4" parent="." instance=ExtResource("1_m2trk")]
-position = Vector2(516, -306)
+position = Vector2(200, 168)
 rotation = 1.5708
 scale = Vector2(9.84, 1)
 
 [node name="Area2D5" parent="." instance=ExtResource("1_m2trk")]
-position = Vector2(820, -315)
+position = Vector2(435, 9.99997)
+rotation = 1.5708
+scale = Vector2(9.84, 1)
+
+[node name="Area2D10" parent="." instance=ExtResource("1_m2trk")]
+position = Vector2(675, 9)
 rotation = 1.5708
 scale = Vector2(9.84, 1)
 
@@ -35,8 +49,11 @@ rotation = 1.5708
 scale = Vector2(9.84, 1)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_oqr2c")]
-position = Vector2(79, 430)
+position = Vector2(46, 515)
 
-[node name="Area2D7" parent="." instance=ExtResource("3_6fe5t")]
-position = Vector2(1195, 348)
-scale = Vector2(1, 6.4)
+[node name="Area2D7" parent="." instance=ExtResource("3_oqr2c")]
+position = Vector2(599, 452)
+
+[node name="Area2D11" parent="." instance=ExtResource("3_6fe5t")]
+position = Vector2(1105, 333)
+scale = Vector2(2.21614, 5.95273)
